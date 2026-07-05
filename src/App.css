@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #7b2ff7, #4facfe);
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 360px;
+  padding: 30px;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.card h1 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.card h2 {
+  color: #fff;
+  font-size: 60px;
+  margin: 20px 0;
+}
+
+.card h3 {
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.card p {
+  color: white;
+  font-size: 18px;
+  margin: 15px 0;
+}
+
+.dice {
+  font-size: 90px;
+  margin: 20px 0;
+  animation: bounce 0.5s ease;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 12px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #00dbde, #fc00ff);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+@keyframes bounce {
+  0% {
+    transform: scale(0.3) rotate(0deg);
+  }
+  50% {
+    transform: scale(1.2) rotate(180deg);
+  }
+  100% {
+    transform: scale(1) rotate(360deg);
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    width: 90%;
+    padding: 25px;
+  }
+
+  .card h1 {
+    font-size: 24px;
+  }
+
+  .card h2 {
+    font-size: 48px;
+  }
+
+  .dice {
+    font-size: 70px;
+  }
+
+  button {
+    font-size: 15px;
+  }
+}
