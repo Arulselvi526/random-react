@@ -5,19 +5,19 @@ A simple yet interactive Random Number Generator built with React.js. This proje
 
 ## ✨ Key Highlights
 
-⚛️ Built using React Functional Components
-🎲 Generates a random number between 1 and 100
-🔄 Instant UI updates with the useState Hook
-💡 Conditional rendering for a better user experience
-🖱️ Interactive button to generate a new random number
-🎨 Clean, modern, and responsive user interface
-📱 Mobile-friendly design
+⚛️ Built using React Functional Components,
+🎲 Generates a random number between 1 and 100,
+🔄 Instant UI updates with the useState Hook,
+💡 Conditional rendering for a better user experience,
+🖱️ Interactive button to generate a new random number,
+🎨 Clean, modern, and responsive user interface,
+📱 Mobile-friendly design,
 
 ## 🛠️ Tech Stack
-React.js
-JavaScript (ES6+)
-HTML5
-CSS3
+React.js,
+JavaScript (ES6+),
+HTML5,
+CSS3,
 
 ## 🚀 Live Demo :
 🔗 https://random-react-4ok9.vercel.app
